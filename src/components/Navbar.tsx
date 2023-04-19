@@ -1,8 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from '../images/Logo svg side by side.svg'
+// create a function that onclicks toggles hidden class on the nav-items div
+
 
 const Navbar = () => {
+    function toggleNavItems() {
+        const navItems = document.getElementById("nav-items");
+        console.log(navItems);
+        if (navItems) {
+          navItems.classList.toggle("hidden");
+        }
+      }
+      
     return (
         <nav
         className="flex h-16 w-full shadow-md items-center fixed md:w-full md:justify-between md:backdrop-blur-sm  top-0 z-50 md:flex font-sans bg-accent px-10 md:bg-blend-multiply"
@@ -16,7 +26,7 @@ const Navbar = () => {
         </div>
   
         <div className="menu absolute top-3 right-3 z-50 md:hidden">
-          <button>
+          <button onClick={toggleNavItems}>
             <svg
               width="32"
               height="32"
@@ -42,10 +52,11 @@ const Navbar = () => {
         </div>
         <div className="nav-items flex flex-col bg-white md:bg-transparent md:w-1/2">
           <div
-            className="h-fit md:flex md:flex-row md:justify-center md:w-full text-xs flex-col cursor-pointer uppercase absolute md:relative top-0 left-0 hidden text-white z-40 w-full"
+           id="nav-items"
+            className="text-accent  hidden top-[60px] left-0 pb-10 md:pb-0 animate__animated animate__fadeInLeft    bg-white md:bg-transparent z-50 pl-6 text-2xl hover:border-primary  md:h-fit md:flex md:flex-row md:justify-center md:w-full md:text-xs flex-col cursor-pointer uppercase absolute md:relative md:top-0 md:left-0  md:text-white md:z-40 w-full"
           >
-            <div>
-              <Link className="mr-10" to="/">Home</Link>
+            <div className="z-[150]">
+              <Link className="mr-10 py-10" to="/">Home</Link>
             </div>
             <div>
               <Link className="mr-10" to="/about">About</Link>
@@ -59,7 +70,8 @@ const Navbar = () => {
           </div>
         </div>
         <button
-          className="btn btn-primary md:relative md:top-0 md:mr-20 border-none rounded-none text-xs p-1 py-0 absolute top-16 left-5 z-50"
+        id="main-button"
+          className="btn btn-primary md:relative md:top-0 md:mr-20 border-none rounded-none text-xs p-1 py-0 absolute top-16 left-5 "
         >
           Book an appointment
         </button>

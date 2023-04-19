@@ -9,35 +9,35 @@ const Crew = () => {
         <h1 className="px-6 pb-6 text-3xl text-pimary">Our Crew</h1>
       </div>
       <div className="container md:flex items-center justify-center">
-        <div className="flex flex-col justify-center w-full m-auto md:m-6 md:w-64 ">
+        <div className="flex flex-col justify-center w-full m-auto md:m-6 md:w-64 shadow-md">
           <img
             src={barber}
             className="w-full md:w-64 h-64  object-cover"
             alt=""
           />
-          <div className="bg-primary text-accent text-center font-sans -translate-y-6 none hover:block md:w-64">
+          <div className="bg-primary text-accent text-center font-sans none hover:block md:w-64">
             <p className="">Name of the person</p>
             <p>Their role</p>
           </div>
         </div>
-        <div className="flex flex-col justify-center w-full m-auto md:m-6  md:w-64">
+        <div className="flex flex-col justify-center w-full m-auto md:m-6  md:w-64 shadow-md">
           <img
             src={barber}
             className="w-full md:w-64 h-64  object-cover"
             alt=""
           />
-          <div className="bg-primary text-accent text-center font-sans -translate-y-6 none hover:block md:w-64">
+          <div className="bg-primary text-accent text-center font-sans none hover:block md:w-64">
             <p className="">Name of the person</p>
             <p>Their role</p>
           </div>
         </div>
-        <div className="flex flex-col justify-center w-full m-auto md:m-6  md:w-64">
+        <div className="flex flex-col justify-center w-full m-auto md:m-6  md:w-64 shadow-md">
           <img
             src={barber}
             className="w-full md:w-64 h-64  object-cover"
             alt=""
           />
-          <div className="bg-primary text-accent text-center font-sans -translate-y-6 none hover:block md:w-64">
+          <div className="bg-primary text-accent text-center font-sans  none hover:block md:w-64">
             <p className="">Name of the person</p>
             <p>Their role</p>
           </div>

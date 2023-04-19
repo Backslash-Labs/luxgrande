@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  purge: {
+    enabled: true,
+    
+  },
   daisyui: {
     themes: [
       {
@@ -11,8 +15,6 @@ module.exports = {
           accent: "#0D0D0D",
 
           neutral: "#010D00",
-
-          // "base-100": "#00010D",
 
           info: "#6091D2",
 

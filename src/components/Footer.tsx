@@ -1,10 +1,11 @@
 import React from "react";
+import Logo from "../images/Logo svg side by side.svg";
 
 const Footer = () => {
     return (
         <><div className="bg-accent md:flex md:justify-around ">
             <div className="logo mx-6 md:ml-20 md:w-1/2">
-                <img src="../images/Logo svg side by side.svg" className="w-48" alt="" />
+                <img src={Logo} className="w-48" alt="" />
                 <p className="text-[#999999] font-sans mt-3 md:w-1/2">
                     Our luxurious salon is equipped with modern equipment and technologies
                     to give you the best results.
