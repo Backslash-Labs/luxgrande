@@ -29,7 +29,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "sauna": "url('./images/sauna.JPG')",
+        "nails": "url('./images/nails.JPG')",
+      }
+    },
   },
   plugins: [require('daisyui')],
 }
