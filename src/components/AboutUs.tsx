@@ -6,17 +6,17 @@ import barber from '../images/IMG_1333.JPG'
 const AboutUs = () => {
     return (
         <div
-        className="intro flex flex-col md:flex-row md:mx-10 items-center text-center bg-secondary"
+        className="intro flex flex-col md:flex-row  items-center text-center bg-secondary"
       >
-        <div className="content md:3/4">
+        <div className="content md:w-1/2">
           <div className="sub">
-            <h2 className="text-2xl text-primary pt-10">Introducing</h2>
-            <h1 className="text-4xl text-neutral my-3 p-3" data-aos="fade-up">
+            <h2 className="text-2xl text-primary pt-5 ">Introducing</h2>
+            <h1 className="text-4xl text-neutral  p-3" data-aos="fade-up">
               The Beauty Luxury You Deserve
             </h1>
             <div className="img-beard m-auto flex items-center justify-center my-4">
               <svg
-                className="w-2/5 md:w-1/5"
+                className="w-2/6 md:w-1/6"
                 width="40%"
                 version="1.1"
                 id="Layer_1"
@@ -67,21 +67,21 @@ const AboutUs = () => {
             </button>
           </div>
         </div>
-        <div className="hidden md:flex md:flex-col md:h-3/4 mb-32">
+        <div className="hidden md:flex md:flex-col md:h-1/2 relative pb-32">
           <img
             src={sauna}
-            className="md:h-1/3 w-1/3 rounded-lg trans"
+            className="md:h-80 object-cover w-80 rounded-lg "
             alt="some"
             data-aos="fade-left"
           />
           <img
             src={shave}
-            className="md:h-1/3 w-1/3 translate-x-44 rounded-lg"
+            className="md:h-80 md:hidden lg:block object-cover w-80 translate-x-44 rounded-lg absolute top-32 "
             alt="hey"
           />
           <img
             src={barber}
-            className="md:h-1/3 w-1/3 rounded-lg -translate-y-32"
+            className="lg:h-80 md:hidden lg:block object-cover w-80 rounded-lg absolute left-80 top-10"
             alt="lol"
             data-aos="fade-left"
           />

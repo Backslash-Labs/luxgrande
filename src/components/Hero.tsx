@@ -3,8 +3,8 @@ import video from '../images/shortvid.mp4';
 
 const Hero = () => {
     return (
-        <div className="video h-screen w-screen">
-        <div className="content absolute top-1/3 z-20 text-white mx-6">
+        <div className="video h-screen w-screen ">
+        <div className="content absolute top-1/3 z-20 text-white mx-6 md:px-32">
           <h2
             className="text-2xl text-primary lg:text-6xl py-10 lg:w-1/2 lg:px-10 animate__animated animate__fadeInUp"
           >
@@ -21,7 +21,7 @@ const Hero = () => {
           <button
             className="btn btn-primary rounded-none my-6 font-sans mb-40 lg:mx-10"
           >
-            Make appointment
+           LEARN MORE
           </button>
         </div>
   

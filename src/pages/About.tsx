@@ -32,7 +32,7 @@ const About = () => {
         <Navbar />
         <Header title="About Us" />
         <AboutUs />
-        <Service />
+        {/* <Service /> */}
         <Crew />
         <Cta />
         <Footer />

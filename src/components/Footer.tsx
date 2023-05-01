@@ -3,7 +3,7 @@ import Logo from "../images/Logo svg side by side.svg";
 
 const Footer = () => {
     return (
-        <><div className="bg-accent md:flex md:justify-around ">
+        <><div className="bg-accent md:flex md:justify-around md:px-20">
             <div className="logo mx-6 md:ml-20 md:w-1/2">
                 <img src={Logo} className="w-48" alt="" />
                 <p className="text-[#999999] font-sans mt-3 md:w-1/2">
@@ -42,7 +42,7 @@ const Footer = () => {
                 <p className="text-[#999999] pb-4 font-sans">Sunday: 2pm to 8pm</p>
             </div>
         </div><div
-            className="copy-rights bg-accent text-center border-secondary border-t-2 text-white font-sans"
+            className="copy-rights bg-accent text-center text-white font-sans"
         >
                 2023 Luxgrande. All rights reserved.
             </div></>

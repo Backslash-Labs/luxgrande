@@ -15,7 +15,7 @@ const Navbar = () => {
       
     return (
         <nav
-        className="flex h-16 w-full shadow-md items-center fixed md:w-full md:justify-between md:backdrop-blur-sm  top-0 z-50 md:flex font-sans bg-accent px-10 md:bg-blend-multiply"
+        className="flex h-16 w-full shadow-md items-center fixed md:w-full md:justify-between md:backdrop-blur-sm md:px-32 top-0 z-50 md:flex font-sans lg:w-screen bg-accent px-10 md:bg-blend-multiply"
       >
         <div className="flex -translate-x-16 md:-translate-x-0">
           <img
@@ -69,12 +69,12 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <button
+        {/* <button
         id="main-button"
           className="btn btn-primary md:relative md:top-0 md:mr-20 border-none rounded-none text-xs p-1 py-0 absolute top-16 left-5 "
         >
           Book an appointment
-        </button>
+        </button> */}
       </nav>
     );
     };
