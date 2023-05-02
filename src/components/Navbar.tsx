@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="nav-items flex flex-col bg-white md:bg-transparent md:w-1/2">
           <div
            id="nav-items"
-            className="text-accent  hidden top-[60px] left-0 pb-10 md:pb-0 md:animate__animated animate__fadeInLeft    bg-white md:bg-transparent z-50 pl-6 text-2xl hover:border-primary  md:h-fit md:flex md:flex-row md:justify-center md:w-full md:text-xs flex-col cursor-pointer uppercase absolute md:relative md:top-0 md:left-0  md:text-white md:z-40 w-full"
+            className="text-accent  hidden top-[60px] left-0 pb-10 md:pb-0 md:animate__animated animate__fadeInLeft    bg-white md:bg-transparent z-50 pl-6 text-2xl hover:border-primary  md:h-fit md:flex md:flex-row md:justify-end md:w-full md:text-xs flex-col cursor-pointer uppercase absolute md:relative md:top-0 md:left-0  md:text-white md:z-40 w-full"
           >
             <div className="z-[150]">
               <Link className="mr-10 py-10" to="/">Home</Link>

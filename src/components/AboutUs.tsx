@@ -79,12 +79,12 @@ const AboutUs = () => {
           />
           <img
             src={shave}
-            className="md:h-80 md:hidden lg:block object-cover w-80 translate-x-44 rounded-lg absolute top-32 "
+            className="md:h-80 md:hidden lg:block object-cover w-80 translate-x-36 rounded-lg absolute top-32 "
             alt="hey"
           />
           <img
             src={barber}
-            className="lg:h-80 md:hidden lg:block object-cover w-80 rounded-lg absolute left-80 top-10"
+            className="lg:h-80 md:hidden lg:block object-cover w-80 rounded-lg absolute left-48 top-56"
             alt="lol"
             data-aos="fade-left"
           />
