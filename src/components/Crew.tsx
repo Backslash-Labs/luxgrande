@@ -3,7 +3,7 @@ import barber from "../images/IMG_1333.JPG";
 
 const Crew = () => {
   return (
-    <div className="crew  text-accent flex flex-col items-center">
+    <div className="crew  text-accent flex flex-col items-center py-6">
       <div className="p-info  text-center">
         <h2 className="px-6 py-6 text-xl">Trendy barber & spa</h2>
         <h1 className="px-6 pb-6 text-3xl text-pimary">Our Crew</h1>

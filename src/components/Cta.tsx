@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cta = () => {
     return (
@@ -8,7 +9,7 @@ const Cta = () => {
             <p className="my-8">Barber is a person whose occupation is mainly to cut dress groom
                 style and shave men's and boys hair.</p>
 
-                <button className="btn btn-primary rounded-none">Contact Us</button>
+               <Link to={'/contact'}> <button className="btn btn-primary rounded-none">Contact Us</button></Link>
         </div>
     </section>
     );

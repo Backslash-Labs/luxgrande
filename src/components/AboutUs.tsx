@@ -2,11 +2,12 @@ import React from "react";
 import sauna from '../images/sauna.JPG'
 import shave from '../images/shave.JPG'
 import barber from '../images/IMG_1333.JPG'
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
     return (
         <div
-        className="intro flex flex-col md:flex-row  items-center text-center bg-secondary"
+        className="intro flex flex-col md:flex-row  items-center text-center bg-secondary py-12 md:px-48"
       >
         <div className="content md:w-1/2">
           <div className="sub">
@@ -62,9 +63,11 @@ const AboutUs = () => {
               and your needs. You deserve nothing less than excellence when it
               comes to your appearance, and we are here to make sure that happens!
             </p>
+            <Link to="/about">
             <button className="btn btn-primary rounded-none my-6 font-sans">
               More About Us
             </button>
+            </Link>
           </div>
         </div>
         <div className="hidden md:flex md:flex-col md:h-1/2 relative pb-32">

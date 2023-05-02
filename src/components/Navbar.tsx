@@ -15,15 +15,18 @@ const Navbar = () => {
       
     return (
         <nav
-        className="flex h-16 w-full shadow-md items-center fixed md:w-full md:justify-between md:backdrop-blur-sm md:px-32 top-0 z-50 md:flex font-sans lg:w-screen bg-accent px-10 md:bg-blend-multiply"
+        className="flex h-16 w-full shadow-md items-center fixed md:w-full md:justify-between md:backdrop-blur-sm md:px-48 top-0 z-50 md:flex font-sans lg:w-screen bg-accent px-10 md:bg-blend-multiply"
       >
-        <div className="flex -translate-x-16 md:-translate-x-0">
+      <Link to={'/'}>
+
+        <div className="flex -translate-x-16 md:translate-x-5">
           <img
             src={Logo}
             className="w-64 h-12"
             alt="Luxgrande Logo"
           />
         </div>
+        </Link>
   
         <div className="menu absolute top-3 right-3 z-50 md:hidden">
           <button onClick={toggleNavItems}>

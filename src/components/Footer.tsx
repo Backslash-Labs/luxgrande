@@ -3,7 +3,7 @@ import Logo from "../images/Logo svg side by side.svg";
 
 const Footer = () => {
     return (
-        <><div className="bg-accent md:flex md:justify-around md:px-20">
+        <><div className="bg-accent md:flex md:justify-around md:px-48 py-12">
             <div className="logo mx-6 md:ml-20 md:w-1/2">
                 <img src={Logo} className="w-48" alt="" />
                 <p className="text-[#999999] font-sans mt-3 md:w-1/2">
