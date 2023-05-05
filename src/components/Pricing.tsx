@@ -5,7 +5,7 @@ const Pricing = () => {
         <div className="pricing px-6 lg:px-48 bg-accent flex flex-col items-center justify-center pt-16">
         <div className="p- flex flex-col items-center text-secondary text-center">
           <h2 className="px-6 py-6 text-2xl">Save 20% On Beauty Spa</h2>
-          <h1 className="px-6 pb-4 text-3xl text-pimary">Our barber pricing</h1>
+          <h1 className="px-6 pb-4 text-3xl text-pimary mb-5">Our barber pricing</h1>
         </div>
   
         <div className="container lg:flex items-center justify-center">

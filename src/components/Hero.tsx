@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
-        <div className="video h-screen w-screen ">
-        <div className="content absolute top-1/3 z-20 text-white mx-6 md:px-48">
+        <div className="video h-screen w-screen  ">
+        <div className="content absolute top-1/3 z-20 text-white mx-6 md:px-16 lg:px-48">
           <h2
             className="text-2xl text-primary lg:text-6xl py-10 lg:w-3/4 lg:px-10 animate__animated animate__fadeInUp"
           >

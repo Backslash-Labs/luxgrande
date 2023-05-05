@@ -24,8 +24,8 @@ const Contact = () => {
       }}
     >
       <Navbar />
-      <div className="md:pl-64 md:pr-56 md:mr-3">
-        <div>
+      <div className="lg:pl-64 lg:pr-[204px] md:px-14 md:mr-3">
+        <div className="mx-6 md:mx-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.7888725960474!2d-0.1336801250752504!3d5.59818089438265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85dda356dbeb%3A0xaebf88989f51adde!2sLux%20Grande%20Beauty%20Lounge!5e0!3m2!1sen!2ske!4v1681905591958!5m2!1sen!2ske"
             width="600"
@@ -64,19 +64,19 @@ const Contact = () => {
           <form action="#" className="mb-10 self">
             <input
               type="text"
-              className="input input-primary border-accent w-full md:w-3/4 rounded-none mb-6"
+              className="input input-primary border-accent w-full  rounded-none mb-6"
               placeholder="Name"
             />
             <input
               type="email"
-              className="input input-primary border-accent w-full rounded-none mb-6 md:w-3/4"
+              className="input input-primary border-accent w-full rounded-none mb-6 "
               placeholder="Email"
             />
             <textarea
               placeholder="Message"
-              className="textarea-primary border-accent border w-full min-h-[190px] md:w-3/4 p-4"
+              className="textarea-primary border-accent border w-full min-h-[190px]  p-4"
             ></textarea>
-            <button className="btn btn-primary rounded-none w-full mt-6 md:w-1/2">
+            <button className="btn btn-primary rounded-none w-full mt-6 lg:w-1/2">
               Send Message
             </button>
           </form>

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
     return (
         <div
-        className="intro flex flex-col md:flex-row  items-center text-center bg-secondary py-12 md:px-48"
+        className="intro flex flex-col md:flex-row  items-center lg:justify-normal md:justify-between text-center bg-secondary py-12 md:px-16 lg:px-48"
       >
         <div className="content md:w-1/2">
           <div className="sub">
@@ -56,7 +56,7 @@ const AboutUs = () => {
             </div>
             <p
               data-aos="fade-up"
-              className="about font-sans text-black leading-loose px-6 md:w-3/4 m-auto"
+              className="about font-sans text-black leading-loose px-6 lg:w-3/4 m-auto"
             >
               At Lux Grande Beauty Lounge, we believe in providing the highest
               quality service in an intimate environment that respects your time
@@ -70,21 +70,21 @@ const AboutUs = () => {
             </Link>
           </div>
         </div>
-        <div className="hidden md:flex md:flex-col md:h-1/2 relative pb-32">
+        <div className="hidden md:flex md:flex-col md:h-1/2 relative pb-32 ">
           <img
             src={sauna}
-            className="md:h-80 object-cover w-80 rounded-lg "
+            className="md:h-80 object-cover w-80 rounded-lg self-end justify-self-end"
             alt="some"
             data-aos="fade-left"
           />
           <img
             src={shave}
-            className="md:h-80 md:hidden lg:block object-cover w-80 translate-x-36 rounded-lg absolute top-32 "
+            className="md:h-80 md:hidden lg:block object-cover w-80 translate-x-36 rounded-lg absolute top-28 "
             alt="hey"
           />
           <img
             src={barber}
-            className="lg:h-80 md:hidden lg:block object-cover w-80 rounded-lg absolute left-48 top-56"
+            className="lg:h-80 md:hidden lg:block object-cover w-80 rounded-lg absolute lg:left-[310px] top-48"
             alt="lol"
             data-aos="fade-left"
           />
